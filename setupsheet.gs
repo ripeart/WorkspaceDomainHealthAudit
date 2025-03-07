@@ -59,12 +59,12 @@ function setupSheet() {
   // --- Setup Complete Alert ---
   const setupCompleteAlert = ui.alert(
     'Sheet Setup Complete',
-    'Welcome to the DoiT AdminPulse for Workspace!\n\n' +
+    'Google Workspace Domain Health Security Audit\n\n' +
       'This tool provides a comprehensive checklist of security controls for Business and Enterprise organizations.\n\n' +
       'To use this tool and all its functions, you must have a Super Admin account.\n\n' +
       'Many settings do not have an API, so we have included links to Google\'s documentation, best practice recommendations, and the relevant section of the admin console.\n\n' +
       'To Begin, Run the read-only API reports using the Check all policies button under Extensions > DoiT AdminPulse for Workspace > Inventory Workspace Settings menu. This will inventory all Google Workspace policies to the sheet and present an alert when it completes.\n\n' +
-      'Run the read-only API reports using the Run All Scripts button under Extensions > DoiT AdminPulse for Workspace. These reports will help you answer questions on the Security Checklist.\n\n' +
+      'Run the read-only API reports using the Run All Scripts button. These reports will help you answer questions on the Security Checklist.\n\n' +
       'After running the API reports, complete the checklist of security controls and take notes on areas where your organization can improve its security posture.\n\n' +
       'For developer support or assistance with reviewing your environment and understanding the findings, use the Get Support button in the Extensions menu.',
     ui.ButtonSet.OK
